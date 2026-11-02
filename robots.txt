@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://providence.lemurianstudios.com/sitemap.xml

@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-providence-ri#service",
+      "name": "Website design in Providence, RI",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-providence-ri",
+      "description": "Website designers for Providence, Rhode Island businesses. We design and build custom sites, brands and 3D animation.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Providence, Rhode Island",
+          "sameAs": "https://www.wikidata.org/wiki/Q18383"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Providence County, Rhode Island"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bristol County, Massachusetts"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Kent County, Rhode Island"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Washington County, Rhode Island"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Newport County, Rhode Island"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bristol County, Rhode Island"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Providence businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Rhode Island",
+          "item": "https://www.lemurianstudios.com/services/web-design-rhode-island"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Providence, RI",
+          "item": "https://www.lemurianstudios.com/services/website-design-providence-ri"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I change my menu without calling you?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We build menus as a collection in Framer, so changing a dish or a price is a quick edit, and the page updates as soon as you publish."
+          }
+        }
+      ]
+    }
+  ]
+}
